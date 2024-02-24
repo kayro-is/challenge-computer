@@ -1,0 +1,241 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  /* Styles spécifiques au corps de la page si nécessaire */
+}
+
+header {
+  width: 100%;
+}
+
+.title-logo {
+  padding-top: 2.5rem;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.title-container {
+  padding-top: 3rem;
+  background: url('/images/bg-header-desktop.png') no-repeat center center/cover;
+}
+
+.title-container img {
+  width: 7rem;
+}
+
+.class-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.class-btn button {
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 10px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.class-btn button:nth-child(1) {
+  margin-right: 10px;
+  background-color: #26bba5;
+  color: #fff;
+  width: 12rem; /* Ajoutez cette propriété pour définir une largeur fixe pour tous les boutons */
+}
+
+.class-btn button:nth-child(2) {
+  margin-left: 10px;
+  background-color: #6174ff;
+  color: #fff;
+  width: 12rem; /* Ajoutez cette propriété pour définir une largeur fixe pour tous les boutons */
+}
+
+.class-btn button:hover {
+  transform: scale(1.1);
+}
+
+.title-snippets {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.info-title {
+  display: flex;
+  justify-content: center;
+}
+
+.info-class {
+  font-size: 1.5rem;
+  margin-top: 5rem;
+  margin-left: 10rem;
+}
+
+.info-title img {
+  width: 35%;
+}
+
+p {
+  padding-bottom: 2.5rem;
+  color: #c2c3c5;
+  font-size: 1.5rem;
+}
+
+.anywhere-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.anywhere-title img {
+  width: 45%;
+}
+
+.title-svg {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.svg-presentation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 6rem;
+}
+
+.svg-presentation img {
+  width: 10%;
+  margin-bottom: 1rem;
+}
+
+.svg-presentation p {
+  font-size: 15px;
+}
+
+.class-img {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5rem;
+}
+
+.class-img img {
+  width: 5%;
+}
+
+.clipboard-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 5rem;
+}
+
+.clipboard-title p {
+  font-size: 15px;
+  margin-top: 2rem;
+}
+
+.btn-class button {
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 10px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.btn-class button:nth-child(1) {
+  margin-right: 10px;
+  background-color: #26bba5;
+  color: #fff;
+  width: 12rem; /* Ajoutez cette propriété pour définir une largeur fixe pour tous les boutons */
+}
+
+.btn-class button:nth-child(2) {
+  margin-top: 15px;
+  margin-left: 10px;
+  background-color: #6174ff;
+  color: #fff;
+  width: 12rem; /* Ajoutez cette propriété pour définir une largeur fixe pour tous les boutons */
+  transition: transform 0.3s ease;
+}
+
+.btn-class button:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  background-color: #f5f6f8;
+}
+
+.first-title {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.first-title img {
+  width: 5rem;
+  padding-right: 40px;
+  margin-right: 4rem;
+}
+
+.first-title a,
+.policy-title a,
+.second-title a,
+.contact-title a,
+.title-kit a,
+.footer-title a {
+  padding: 30px;
+  text-decoration: none;
+  color: #818790;
+  font-weight: bold;
+}
+
+.policy-title {
+  padding-left: 5rem;
+}
+
+.second-title {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-title {
+  margin-right: 2rem;
+}
+
+.title-kit {
+  margin-right: 3rem;
+}
+
+.social-media {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-media img {
+  margin: 10px;
+}
+
+.footer-title {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  text-decoration: none;
+  color: #818790;
+}
+
+/* Ajoutez vos styles pour le pied de page ici */
