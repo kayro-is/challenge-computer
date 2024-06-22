@@ -6,7 +6,6 @@
 
 body {
   font-family: "Bai Jamjuree", sans-serif;
-  /* Styles spécifiques au corps de la page si nécessaire */
 }
 
 header {
@@ -47,14 +46,14 @@ header {
   margin-right: 10px;
   background-color: #26bba5;
   color: #fff;
-  width: 12rem; /* Ajoutez cette propriété pour définir une largeur fixe pour tous les boutons */
+  width: 12rem; 
 }
 
 .class-btn button:nth-child(2) {
   margin-left: 10px;
   background-color: #6174ff;
   color: #fff;
-  width: 12rem; /* Ajoutez cette propriété pour définir une largeur fixe pour tous les boutons */
+  width: 12rem; 
 }
 
 .class-btn button:hover {
@@ -80,7 +79,7 @@ header {
 }
 
 .info-title img {
-  width: 35%;
+  width: 50%;
 }
 
 p {
@@ -160,7 +159,7 @@ p {
   margin-right: 10px;
   background-color: #26bba5;
   color: #fff;
-  width: 12rem; /* Ajoutez cette propriété pour définir une largeur fixe pour tous les boutons */
+  width: 12rem; 
 }
 
 .btn-class button:nth-child(2) {
@@ -168,7 +167,7 @@ p {
   margin-left: 10px;
   background-color: #6174ff;
   color: #fff;
-  width: 12rem; /* Ajoutez cette propriété pour définir une largeur fixe pour tous les boutons */
+  width: 12rem; 
   transition: transform 0.3s ease;
 }
 
@@ -238,4 +237,4 @@ footer {
   color: #818790;
 }
 
-/* Ajoutez vos styles pour le pied de page ici */
+
